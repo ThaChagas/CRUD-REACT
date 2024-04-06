@@ -108,7 +108,7 @@ export default function Produtos(){
             Swal.fire({
                 icon: "success",
                 title: `Produto ${produto.nome}, foi cadastrado com sucesso!`,
-                showCancelButton: false,
+                showConfirmButton: false,
                 timer: 4000
             })
         })
